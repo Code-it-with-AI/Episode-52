@@ -1,4 +1,4 @@
-# Episode-52: What is an NPU good for?
+# Episode-52: NPU Testing
 
 Rocky discusses his findings with a "Copilot PC" and an NPU
 
