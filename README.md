@@ -2,7 +2,7 @@
 
 Rocky discusses his findings with a "Copilot PC" and an NPU
 
-📺 YouTube video: https://youtu.be/
+📺 YouTube video: https://youtu.be/yPl0m0er7AMOct
 
 🏠 Code it with AI Home Page: https://codeitwithai.com
 
