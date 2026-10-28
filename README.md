@@ -128,14 +128,17 @@ None of them generated the correct ASCII art, but all of them were able to gener
 
 This video shows running the qwen3.6 35B-A3B model using the GPU and CPU. It takes a long time to get loaded into memory and parse the initial OpenCode prompt, after which it is slow but perhaps useable.
 
-Screen Recording 2026-10-23 152701.mp4
+[Screen Recording 2026-10-23 152701.mp4](https://youtu.be/V5FPdJUwrzw)
+
 Using the GenieX runtime from Qualcomm, I run the GPT-OSS-20B model using the NPU. Not fast either, but it didn't spin up the fans on the laptop, so it clearly used a lot less power.
 
 It does output some odd text artifacts while running. Probably due to GenieX, but maybe due to the model. It also did get stuck in the middle, and I had to prompt it to resume.
 
 Compared to qwen3.6, this is faster and more power efficient, but not as fast as GPT-OSS-20B running on the GPU.
 
-Screen Recording 2026-10-23 153304.mp4
+
+[Screen Recording 2026-10-23 152701.mp4](https://youtu.be/mn2hZVMI4sY)
+
 Running the GPT-OSS-20B model using the GPU and CPU (not NPU). This was the most successful configuration, probably useful for someone who is fairly patient. It still caused the laptop's fans to spin quite fast, as it uses a lot of power and generates a lot of heat.
 
 It generated ASCII art that looked the best of the three, but still didn't look anything like the characters "AI".
